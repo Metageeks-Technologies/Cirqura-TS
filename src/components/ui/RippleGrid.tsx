@@ -255,7 +255,20 @@ void main() {
       renderer.gl.getExtension('WEBGL_lose_context')?.loseContext();
       container.removeChild(gl.canvas);
     };
-  }, []);
+  }, [
+    enableRainbow,
+    gridColor,
+    rippleIntensity,
+    gridSize,
+    gridThickness,
+    fadeDistance,
+    vignetteStrength,
+    glowIntensity,
+    opacity,
+    gridRotation,
+    mouseInteraction,
+    mouseInteractionRadius
+  ]);
 
   useEffect(() => {
     if (!uniformsRef.current) return;

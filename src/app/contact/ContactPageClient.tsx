@@ -12,13 +12,7 @@ import {
   Link,
   Heading,
   HStack,
-  Icon,
   Badge,
-  List,
-  ListItem,
-  Separator,
-  Grid,
-  GridItem,
 } from '@chakra-ui/react'
 import { Field } from '@/components/ui/field'
 import { Input, Textarea } from '@chakra-ui/react'

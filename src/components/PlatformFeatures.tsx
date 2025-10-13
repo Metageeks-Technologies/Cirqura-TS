@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Container, VStack, Text, HStack, Icon, Grid, GridItem } from '@chakra-ui/react'
+import { Box, Container, VStack, Text, Icon, Grid, GridItem } from '@chakra-ui/react'
 import { LuTruck, LuUsers, LuTrendingUp, LuLeaf, LuShield, LuClock } from 'react-icons/lu'
 
 const platformFeatures = [

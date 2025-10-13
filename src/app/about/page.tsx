@@ -14,10 +14,6 @@ import {
   Badge,
   List,
   ListItem,
-  Grid,
-  GridItem,
-  Separator,
-  Icon,
   Timeline
 } from '@chakra-ui/react'
 import { Avatar } from '@/components/ui/Avatar'

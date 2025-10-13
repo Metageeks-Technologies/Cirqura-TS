@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Container, VStack, Text, HStack, Grid, GridItem } from '@chakra-ui/react'
+import { Box, Container, VStack, Text, Grid, GridItem } from '@chakra-ui/react'
 
 const stats = [
   {

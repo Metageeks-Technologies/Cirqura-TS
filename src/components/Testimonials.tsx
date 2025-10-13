@@ -44,8 +44,6 @@ export default function Testimonials() {
     return () => clearInterval(timer)
   }, [])
 
-  const currentTestimonial = testimonials[currentSlide]
-
   return (
     <Box py={{ base: 12, md: 20 }} bg="gray.50">
       <Container maxW="7xl">

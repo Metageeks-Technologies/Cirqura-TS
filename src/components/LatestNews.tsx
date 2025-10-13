@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Container, VStack, Text, HStack, Grid, GridItem, Badge } from '@chakra-ui/react'
+import { Box, Container, VStack, Text, Grid, GridItem, Badge } from '@chakra-ui/react'
 import Image from 'next/image'
 
 const newsItems = [

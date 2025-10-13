@@ -71,7 +71,7 @@ export function ConsultationPopup({ trigger }: ConsultationPopupProps) {
         glassVolume: '',
         message: '',
       })
-    } catch (error) {
+    } catch {
       toaster.create({
         title: 'Submission Failed',
         description: 'Please try again or contact us directly.',

@@ -1,6 +1,6 @@
 'use client'
 
-import { Box, Container, VStack, Text, HStack, Image } from '@chakra-ui/react'
+import { Box, Container, VStack, Text } from '@chakra-ui/react'
 
 const clientLogos = [
   { name: 'Dubai Beverage Co.', logo: '/logos/dubai-beverage.svg' },

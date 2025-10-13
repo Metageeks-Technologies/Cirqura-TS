@@ -15,19 +15,9 @@ import {
   Badge,
   List,
   ListItem,
-  Grid,
-  GridItem,
-  Separator,
-  Icon,
-  Timeline,
-  Progress,
   Accordion,
-  AccordionItem,
   AccordionItemTrigger,
   AccordionItemContent,
-  Avatar,
-  For,
-  Span,
 } from '@chakra-ui/react'
 
 export const metadata: Metadata = {
