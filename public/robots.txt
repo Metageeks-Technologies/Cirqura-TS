@@ -1,0 +1,20 @@
+User-agent: *
+Allow: /
+
+# Block access to certain directories if needed
+Disallow: /api/
+Disallow: /_next/static/
+Disallow: /admin/
+
+# Allow all major search engine crawlers
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Sitemap
+Sitemap: https://cirqura.ae/sitemap.xml
